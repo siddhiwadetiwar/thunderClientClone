@@ -1,0 +1,53 @@
+<!-- Requirement is to create a responsive thunderclient website
+using html, css and java-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thunder Client Clone</title>
+    <!-- link for css-->
+    <link rel="stylesheet" href="./thunderClient.css"> 
+</head>
+<body>
+    <!-- dropdown method options-->
+    <section class="middle-main">
+        <div class="input-methods">
+            <select name="methods" id="methods">
+                <option value="GET">GET</option>
+                <option value="POST">POST</option>
+                <option value="PUT">PUT</option>
+                <option value="DELETE">DELETE</option>
+                <option value="PATCH">PATCH</option>
+                <option value="HEAD">HEAD</option>
+                <option value="OPTIONS">OPTIONS</option>
+                <option value="PROPFIND">PROPFIND</option>
+                <option value="CUSTOM">CUSTOM</option>
+            </select>
+        </div>
+    
+        <!-- the url as input -->
+        <div class="url_input">
+            <input class="url" type="text" placeholder="Enter Url">
+        </div>
+    
+        <!-- send button to send url-->
+        <div class="send_button">
+            <button class="send">Send</button>
+        </div>
+    </section>
+
+    <section class="middle-body">
+        <div class="additional-buttons">
+            <button class="navButton">Query</button>
+            <button class="navButton">Headers</button>
+            <button class="navButton">Auth</button>
+            <button class="navButton">Body</button>
+            <button class="navButton">Test</button>
+            <button class="navButton">Pre Run</button>
+        </div>
+    </section>
+    
+</body>
+</html>
